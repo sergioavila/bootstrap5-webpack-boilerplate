@@ -1,5 +1,5 @@
 {
-    "name": "bootstrap5-webpack-boilerplate",
+    "name": "UNAB",
     "version": "1.0.1",
     "description": "A simple boilerplate using Bootstrap 5, Webpack and Babel.",
     "main": "index.js",
@@ -13,7 +13,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/noreading/bootstrap5-webpack-boilerplate.git"
+        "url": "https://github.com/noreading/UNAB.git"
     },
     "devDependencies": {
         "@babel/core": "^7.23.6",
@@ -42,5 +42,8 @@
         "webpack": "^5.88.2",
         "webpack-cli": "^5.0.1",
         "webpack-dev-server": "^4.7.4"
+    },
+    "dependencies": {
+        "swiper": "^11.1.8"
     }
 }

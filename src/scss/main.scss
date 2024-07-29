@@ -14,7 +14,6 @@
 
 @import "variables";
 @import "bootstrap";
-@import "fonts";
 
 // If you do not want to load the customized bootstrap version, just use the following line.
 // @import "~bootstrap/scss/bootstrap";
@@ -24,6 +23,37 @@
 //---------------------------------------------
 
 body {
+    .carousel-caption{
+        transform: translateY(-50%);
+        top: 50%;
+        bottom: auto
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 10px;
+        height: 10px;
+        display: block;
+        border-radius: 50%;
+    }
+    .btn-solicita-info{
+        right: -10px;
+        top: 50%;
+        z-index: 9;
+    }
+    .shadow{
+        box-shadow: 8.26px 8.26px 16.52px 0px #00000040 !important;
+    }
+    .card-header{
+        z-index: 1;
+        text-align: center;
+    }
+    .resumen-card{
+        background: linear-gradient(179.91deg, #042F53 0.08%, #00101E 99.92%);
+        border-radius: 15px;
+        margin-top: -50px;
+        z-index: 0;
+        color: white;
+        text-align: center
+    }
 }
 
 //---------------------------------------------
